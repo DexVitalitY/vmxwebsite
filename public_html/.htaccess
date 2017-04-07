@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^vmxlabs.com [NC]
+RewriteRule ^(.*)$ http://www.vmxlabs.com/$1 [L,R=301]

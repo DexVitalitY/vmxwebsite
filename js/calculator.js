@@ -103,60 +103,73 @@ $(document).ready(function(){
         // $('#GainMonth6').text("HKD " +((data['earnings']['month'])*data['priceHkd6']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd6']).toFixed(2));
 
         //Scenario7 - Ether @ USD7
-        data['priceUsd7'] = 7
-        data['priceHkd7'] = data['priceUsd7'] * 7.75;
+       //  data['priceUsd7'] = 7
+       //  data['priceHkd7'] = data['priceUsd7'] * 7.75;
 
-        $('#GainMonth7').text("HKD " +((data['earnings']['month'])*data['priceHkd7']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd7']).toFixed(2));
+       //  $('#GainMonth7').text("HKD " +((data['earnings']['month'])*data['priceHkd7']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd7']).toFixed(2));
 
-       //Scenario8 - Ether @ USD8
-        data['priceUsd8'] = 8
-        data['priceHkd8'] = data['priceUsd8'] * 7.75;
+       // //Scenario8 - Ether @ USD8
+       //  data['priceUsd8'] = 8
+       //  data['priceHkd8'] = data['priceUsd8'] * 7.75;
 
-        $('#GainMonth8').text("HKD " +((data['earnings']['month'])*data['priceHkd8']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd8']).toFixed(2));
+       //  $('#GainMonth8').text("HKD " +((data['earnings']['month'])*data['priceHkd8']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd8']).toFixed(2));
 
-       //Scenario9 - Ether @ USD9
-        data['priceUsd9'] = 9
-        data['priceHkd9'] = data['priceUsd9'] * 7.75;
+       // //Scenario9 - Ether @ USD9
+       //  data['priceUsd9'] = 9
+       //  data['priceHkd9'] = data['priceUsd9'] * 7.75;
 
-        $('#GainMonth9').text("HKD " +((data['earnings']['month'])*data['priceHkd9']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd9']).toFixed(2));
+       //  $('#GainMonth9').text("HKD " +((data['earnings']['month'])*data['priceHkd9']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd9']).toFixed(2));
 
-       //Scenario10 - Ether @ USD10
-        data['priceUsd10'] = 10
-        data['priceHkd10'] = data['priceUsd10'] * 7.75;
+       // //Scenario10 - Ether @ USD10
+       //  data['priceUsd10'] = 10
+       //  data['priceHkd10'] = data['priceUsd10'] * 7.75;
 
-        $('#GainMonth10').text("HKD " +((data['earnings']['month'])*data['priceHkd10']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd10']).toFixed(2));
+       //  $('#GainMonth10').text("HKD " +((data['earnings']['month'])*data['priceHkd10']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd10']).toFixed(2));
 
-       //Scenario11 - Ether @ USD11
-        data['priceUsd11'] = 11
-        data['priceHkd11'] = data['priceUsd11'] * 7.75;
+       // //Scenario11 - Ether @ USD11
+       //  data['priceUsd11'] = 11
+       //  data['priceHkd11'] = data['priceUsd11'] * 7.75;
 
-        $('#GainMonth11').text("HKD " +((data['earnings']['month'])*data['priceHkd11']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd11']).toFixed(2));
+       //  $('#GainMonth11').text("HKD " +((data['earnings']['month'])*data['priceHkd11']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd11']).toFixed(2));
 
-       //Scenario11 - Ether @ USD12
-        data['priceUsd12'] = 12
-        data['priceHkd12'] = data['priceUsd11'] * 7.75;
+       // //Scenario11 - Ether @ USD12
+       //  data['priceUsd12'] = 12
+       //  data['priceHkd12'] = data['priceUsd11'] * 7.75;
 
-        $('#GainMonth12').text("HKD " +((data['earnings']['month'])*data['priceHkd12']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd12']).toFixed(2));
+       //  $('#GainMonth12').text("HKD " +((data['earnings']['month'])*data['priceHkd12']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd12']).toFixed(2));
 
-       //Scenario11 - Ether @ USD13
-        data['priceUsd13'] = 13
-        data['priceHkd13'] = data['priceUsd13'] * 7.75;
+       // //Scenario11 - Ether @ USD13
+       //  data['priceUsd13'] = 13
+       //  data['priceHkd13'] = data['priceUsd13'] * 7.75;
 
-        $('#GainMonth13').text("HKD " +((data['earnings']['month'])*data['priceHkd13']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd13']).toFixed(2));
+       //  $('#GainMonth13').text("HKD " +((data['earnings']['month'])*data['priceHkd13']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd13']).toFixed(2));
 
-       //Scenario11 - Ether @ USD14
-        data['priceUsd14'] = 14
-        data['priceHkd14'] = data['priceUsd14'] * 7.75;
+       // //Scenario11 - Ether @ USD14
+       //  data['priceUsd14'] = 14
+       //  data['priceHkd14'] = data['priceUsd14'] * 7.75;
 
-        $('#GainMonth14').text("HKD " +((data['earnings']['month'])*data['priceHkd14']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd14']).toFixed(2));
+       //  $('#GainMonth14').text("HKD " +((data['earnings']['month'])*data['priceHkd14']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd14']).toFixed(2));
 
-       //Scenario11 - Ether @ USD15
-        data['priceUsd15'] = 15
-        data['priceHkd15'] = data['priceUsd15'] * 7.75;
+       //Scenario11 - Ether @ USD50
+        data['priceUsd50'] = 50
+        data['priceHkd50'] = data['priceUsd50'] * 7.75;
 
-        $('#GainMonth15').text("HKD " +((data['earnings']['month'])*data['priceHkd15']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd15']).toFixed(2));
+        $('#GainMonth50').text("HKD " +((data['earnings']['month'])*data['priceHkd50']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd50']).toFixed(2));
+         
+         //Scenario11 - Ether @ USD55
+        data['priceUsd55'] = 55
+        data['priceHkd55'] = data['priceUsd55'] * 7.75;
 
-  
+        $('#GainMonth55').text("HKD " +((data['earnings']['month'])*data['priceHkd55']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd55']).toFixed(2));
+
+         //Scenario11 - Ether @ USD60
+        data['priceUsd60'] = 60
+        data['priceHkd60'] = data['priceUsd60'] * 7.75;
+
+        $('#GainMonth60').text("HKD " +((data['earnings']['month'])*data['priceHkd60']).toFixed(2) + "/ USD" + ((data['earnings']['month'])*data['priceUsd60']).toFixed(2));
+    
+
+
       }
     };
     $.ajax(blockchainRequest);

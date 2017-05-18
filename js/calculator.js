@@ -36,7 +36,7 @@ $(document).ready(function(){
         var netHashGH = difficultyAvg / blockTimeAvg / Math.pow(10,9);
         data['netHashGH'] = netHashGH;
 
-        var userRatio = 118 * Math.pow(10,6) / (netHashGH * Math.pow(10,9));
+        var userRatio = 134 * Math.pow(10,6) / (netHashGH * Math.pow(10,9));
         var blocksPerMin = 60.0 / blockTimeAvg;
         var ethPerMin = blocksPerMin * 5.0;
         var earnings = {};
@@ -50,7 +50,7 @@ $(document).ready(function(){
         data['blocksPerMin'] = blocksPerMin;
         data['ethPerMin'] = ethPerMin;
         data['earnings'] = earnings;
-        data['rigHashRate'] = 118;
+        data['rigHashRate'] = 134;
 
         console.log(data);
 
